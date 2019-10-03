@@ -40,3 +40,36 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+// Task #2
+
+let navigation = document.getElementsByName("nav");
+navigation.setAttribute(siteContent["nav"])
+
+let navigation = document.getElementsByName("cta");
+navigation.setAttribute(siteContent["cta"])
+
+let navigation = document.getElementsByName("main-content");
+navigation.setAttribute(siteContent["main-content"])
+
+let navigation = document.getElementsByName("contact");
+navigation.setAttribute(siteContent["contact"])
+
+let navigation = document.getElementsByName("footer");
+navigation.setAttribute(siteContent["footer"])
+
+
+let ctaImg = document.getElementById("cta-img");
+ctaImg.setAttribute('src', siteContent["cta"]["img-src"])
+
+let middleImage = document.getElementById("middle-img-src");
+middleImage.setAttribute('src', siteContent["main-content"]["img-src"])
+
+// Task #3
+
+navigation.setAtrribute('style', "text-color: green");
+
+// I forget which DOM selector to use when refrencing things like "nav" or "h1", which one do I use and can you
+// give me an example of that? How do I use the .setAttribute method to update ENTIRE sections of codes, like used
+// in this example?
+//I know I am supposed to use the class id but i forget where

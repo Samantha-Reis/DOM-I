@@ -51,6 +51,7 @@ navigation.setAttribute(siteContent["cta"])
 
 let navigation = document.getElementsByName("main-content");
 navigation.setAttribute(siteContent["main-content"])
+//loop through it
 
 let navigation = document.getElementsByName("contact");
 navigation.setAttribute(siteContent["contact"])
@@ -72,4 +73,6 @@ navigation.setAtrribute('style', "text-color: green");
 // I forget which DOM selector to use when refrencing things like "nav" or "h1", which one do I use and can you
 // give me an example of that? How do I use the .setAttribute method to update ENTIRE sections of codes, like used
 // in this example?
+// element level would be query selector document.queryselector"nav"()
 //I know I am supposed to use the class id but i forget where
+//just put it on any items I want to target directly 
